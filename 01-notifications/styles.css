@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+    margin: 0;
+    min-height: 100vh;
+}
+
+button {
+    font-size: 3rem;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 0.5rem;
+}
+
+#notification-container {
+    position: fixed;
+    top: 10px;
+}
+
+.notification {
+    background-color: #FFFFFF40;
+    color: black;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 1.3rem;
+}
